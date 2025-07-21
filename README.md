@@ -3,10 +3,11 @@
 太空任務模擬系統，使用 FastAPI 架構，模擬一場人與 AI 指揮官合作的「小行星 B612 緊急返航任務」。
 
 本系統支援：
-- 感測器資料上傳（風速、輻射、溫度、表面圖像）
-- 地球氣象與軌道資料整合（CWB / NOAA / Celestrak）
-- AI 指揮官 Commander EVA 進行返航風險評估與建議
-- 與 Neo4j 知識圖譜與 LLM 推理整合（開發中）
+
+* 感測器資料上傳（風速、輻射、溫度、表面圖像）
+* 地球氣象與軌道資料整合（CWB / NOAA / Celestrak）
+* AI 指揮官 Commander EVA 進行返航風險評估與建議
+* 與 Neo4j 知識圖譜與 LLM 推理整合（開發中）
 
 ---
 
@@ -18,7 +19,7 @@ cd b612-return-mission
 python -m venv venv
 source venv/bin/activate  # Windows 請用 venv\Scripts\activate
 pip install -r requirements.txt
-````
+```
 
 ---
 
@@ -28,33 +29,64 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-開啟 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) 使用 Swagger UI 測試 API。
+打開 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) 可透過 Swagger UI 測試 API。
 
 ---
 
-## 🧪 產生假資料
+## 🧪 測試與腳本集
 
-本專案提供一個腳本，用於產生模擬的 B612 感測器資料：
+本專案提供多項模擬腳本與測試工具：
+
+### 1️⃣ 產生感測器假資料
 
 ```bash
 python scripts/generate_fake_sensor_data.py
 ```
 
-執行後會在 `data/b612_sensors.json` 生成假資料，內容格式如下：
+產出位於 `data/b612_sensors.json`，可直接上傳至 `/api/sensors/upload`。
 
-```json
-[
-  {
-    "timestamp": "2025-07-21T04:15:00",
-    "wind_speed": 37.85,
-    "radiation_level": 2.31,
-    "temperature": -93.4,
-    "image_id": "img_7462.jpg"
-  }
-]
+---
+
+### 2️⃣ 測試 OpenAI 回應範例
+
+```bash
+bash scripts/test_hello.sh
 ```
 
-你可用此檔案模擬上傳至 `/api/sensors/upload` 接口。
+內容如下：
+
+```bash
+curl -X GET "http://localhost:9001/api/hello?msg=返航風險有多高？"
+```
+
+---
+
+### 3️⃣ 模擬返航決策（POST）
+
+```bash
+bash scripts/test_decision.sh
+```
+
+內容如下：
+
+```bash
+curl -X POST http://localhost:9001/api/mission/decision \
+     -H "Content-Type: application/json" \
+     -d '{
+           "question": "目前環境是否適合返航？"
+         }'
+```
+
+會自動觸發 AI 指揮官進行分析，並回傳下列格式：
+
+```json
+{
+  "question": "目前環境是否適合返航？",
+  "decision": "launch",
+  "reason": "根據氣象與輻射條件，目前可安全返航。",
+  "timestamp": "2025-07-21T13:25:00"
+}
+```
 
 ---
 
@@ -62,33 +94,26 @@ python scripts/generate_fake_sensor_data.py
 
 ```
 b612-return-mission/
-├── main.py                      # FastAPI 入口點
+├── main.py                      # FastAPI 入口
 ├── requirements.txt
-├── .env                         # 可存放 API 金鑰與設定
+├── .env                         # 儲存 OPENAI_API_KEY 等設定
 ├── data/
-│   └── b612_sensors.json        # 假資料輸出位置
+│   ├── b612_sensors.json
+│   ├── earth_weather_logs.json
+│   └── launch.json              # AI 決策寫入位置
 ├── scripts/
-│   └── generate_fake_sensor_data.py  # 假資料產生器
+│   ├── generate_fake_sensor_data.py
+│   ├── test_hello.sh
+│   └── test_decision.sh
 ├── app/
-│   ├── models.py
 │   ├── routes/
 │   │   ├── sensors.py
-│   │   ├── cabin.py
 │   │   ├── earth.py
-│   │   └── commander.py
+│   │   ├── vision.py
+│   │   └── mission.py
 │   └── services/
-│       ├── eva_engine.py
-│       └── earth_rag.py
+│       ├── openai_hello.py
+│       └── decision_function.py
 ```
 
 ---
-
-## 📌 接下來的任務（開發中）
-
-* [ ] 建立感測資料上傳 API（完成中）
-* [ ] 整合地球 Opendata（NOAA / Celestrak）
-* [ ] 建立 AI 指揮官模型推理系統（OpenAI Function Calling + Neo4j）
-* [ ] 回傳每日風險報告與動作建議
-
----
-
