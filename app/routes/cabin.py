@@ -1,7 +1,8 @@
-from fastapi import APIRouter
+# app/schemas/vision.py
 
-router = APIRouter()
+from pydantic import BaseModel
 
-@router.get("/ping")
-def ping():
-    return {"message": "Cabin online"}
+class VisionResult(BaseModel):
+    image_path: str
+    label: str
+    confidence: float

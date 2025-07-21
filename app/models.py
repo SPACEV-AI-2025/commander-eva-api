@@ -11,3 +11,15 @@ class SensorData(BaseModel):
 
 class SensorBatchUpload(BaseModel):
     data: List[SensorData]
+
+class PerceptionResult(BaseModel):
+    label: str         # flat / rough
+    confidence: float  # 0~1
+
+# commander-eva-api/api_server/models.py
+from pydantic import BaseModel
+
+class VisionResult(BaseModel):
+    image_path: str
+    label: str
+    confidence: float
