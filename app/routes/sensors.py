@@ -1,29 +1,25 @@
 from fastapi import APIRouter
-from app.models import VisionResult
+from pydantic import BaseModel
+from typing import List
 from pathlib import Path
-from datetime import datetime
 import json
+from datetime import datetime
 
 router = APIRouter()
 
-@router.post("/result")
-async def receive_vision_result(result: VisionResult):
-    print(f"[視覺回報] 圖片: {result.image_path}")
-    print(f"[視覺回報] 標籤: {result.label}，信心值: {result.confidence:.2f}")
+class SensorEntry(BaseModel):
+    timestamp: str
+    wind_speed: float
+    radiation_level: float
+    temperature: float
+    image_id: str
 
-    # 儲存至 JSONL 檔案
-    log_path = Path("data/vision_log.jsonl")
-    log_path.parent.mkdir(parents=True, exist_ok=True)
-
-    # 組合要儲存的資料
-    entry = result.dict()
-    entry["timestamp"] = datetime.utcnow().isoformat()
-
-    with open(log_path, "a") as f:
-        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-
-    return {
-        "status": "ok",
-        "message": "已收到並儲存視覺結果",
-        "received": entry
-    }
+@router.post("/upload")
+async def receive_sensor_data(data: List[SensorEntry]):
+    log_path = Path("data/b612_sensors.json")
+    log_path.parent.mkdir(exist_ok=True)
+    
+    with open(log_path, "w") as f:
+        json.dump([entry.dict() for entry in data], f, indent=2)
+    
+    return {"status": "ok", "message": f"接收 {len(data)} 筆感測資料成功 ✅"}

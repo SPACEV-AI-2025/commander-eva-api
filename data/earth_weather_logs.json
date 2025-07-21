@@ -1,0 +1,268 @@
+[
+  {
+    "timestamp": "2025-07-21T10:33:31.223002",
+    "location": "臺北市",
+    "weather": {
+      "Wx": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "陰短暫陣雨或雷雨",
+            "parameterValue": "18"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "陰天",
+            "parameterValue": "7"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "陰時多雲",
+            "parameterValue": "6"
+          }
+        }
+      ],
+      "PoP": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "40",
+            "parameterUnit": "百分比"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "20",
+            "parameterUnit": "百分比"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "20",
+            "parameterUnit": "百分比"
+          }
+        }
+      ],
+      "MinT": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "26",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "26",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "26",
+            "parameterUnit": "C"
+          }
+        }
+      ],
+      "CI": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "舒適至悶熱"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "舒適至悶熱"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "舒適至悶熱"
+          }
+        }
+      ],
+      "MaxT": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "27",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "32",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "30",
+            "parameterUnit": "C"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-07-21T10:33:48.246466",
+    "location": "臺北市",
+    "weather": {
+      "Wx": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "陰短暫陣雨或雷雨",
+            "parameterValue": "18"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "陰天",
+            "parameterValue": "7"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "陰時多雲",
+            "parameterValue": "6"
+          }
+        }
+      ],
+      "PoP": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "40",
+            "parameterUnit": "百分比"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "20",
+            "parameterUnit": "百分比"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "20",
+            "parameterUnit": "百分比"
+          }
+        }
+      ],
+      "MinT": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "26",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "26",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "26",
+            "parameterUnit": "C"
+          }
+        }
+      ],
+      "CI": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "舒適至悶熱"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "舒適至悶熱"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "舒適至悶熱"
+          }
+        }
+      ],
+      "MaxT": [
+        {
+          "startTime": "2025-07-21 18:00:00",
+          "endTime": "2025-07-22 06:00:00",
+          "parameter": {
+            "parameterName": "27",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 06:00:00",
+          "endTime": "2025-07-22 18:00:00",
+          "parameter": {
+            "parameterName": "32",
+            "parameterUnit": "C"
+          }
+        },
+        {
+          "startTime": "2025-07-22 18:00:00",
+          "endTime": "2025-07-23 06:00:00",
+          "parameter": {
+            "parameterName": "30",
+            "parameterUnit": "C"
+          }
+        }
+      ]
+    }
+  }
+]

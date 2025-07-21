@@ -1,170 +1,170 @@
 [
   {
-    "timestamp": "2025-07-20T06:47:09.389534",
-    "wind_speed": 51.89,
-    "radiation_level": 1.21,
-    "temperature": -85.6,
-    "image_id": "img_8772.jpg"
+    "timestamp": "2025-07-20T11:21:09.853671",
+    "wind_speed": 25.65,
+    "radiation_level": 2.76,
+    "temperature": -87.5,
+    "image_id": "img_6626.jpg"
   },
   {
-    "timestamp": "2025-07-20T07:47:09.389534",
-    "wind_speed": 78.13,
-    "radiation_level": 1.54,
-    "temperature": -121.1,
-    "image_id": "img_8132.jpg"
+    "timestamp": "2025-07-20T12:21:09.853671",
+    "wind_speed": 71.83,
+    "radiation_level": 1.7,
+    "temperature": -104.6,
+    "image_id": "img_8567.jpg"
   },
   {
-    "timestamp": "2025-07-20T08:47:09.389534",
-    "wind_speed": 66.83,
-    "radiation_level": 2.39,
-    "temperature": -124.9,
-    "image_id": "img_1635.jpg"
+    "timestamp": "2025-07-20T13:21:09.853671",
+    "wind_speed": 85.64,
+    "radiation_level": 2.3,
+    "temperature": -50.5,
+    "image_id": "img_3840.jpg"
   },
   {
-    "timestamp": "2025-07-20T09:47:09.389534",
-    "wind_speed": 32.93,
-    "radiation_level": 4.98,
-    "temperature": -35.9,
-    "image_id": "img_9495.jpg"
+    "timestamp": "2025-07-20T14:21:09.853671",
+    "wind_speed": 69.45,
+    "radiation_level": 4.79,
+    "temperature": -118.1,
+    "image_id": "img_4405.jpg"
   },
   {
-    "timestamp": "2025-07-20T10:47:09.389534",
-    "wind_speed": 55.21,
-    "radiation_level": 3.94,
-    "temperature": -131.1,
-    "image_id": "img_5526.jpg"
+    "timestamp": "2025-07-20T15:21:09.853671",
+    "wind_speed": 20.7,
+    "radiation_level": 4.52,
+    "temperature": -143.3,
+    "image_id": "img_2879.jpg"
   },
   {
-    "timestamp": "2025-07-20T11:47:09.389534",
-    "wind_speed": 57.92,
-    "radiation_level": 3.28,
-    "temperature": -38.7,
-    "image_id": "img_3251.jpg"
+    "timestamp": "2025-07-20T16:21:09.853671",
+    "wind_speed": 46.49,
+    "radiation_level": 4.67,
+    "temperature": -112.0,
+    "image_id": "img_2666.jpg"
   },
   {
-    "timestamp": "2025-07-20T12:47:09.389534",
-    "wind_speed": 71.19,
-    "radiation_level": 4.08,
-    "temperature": -132.2,
-    "image_id": "img_7359.jpg"
+    "timestamp": "2025-07-20T17:21:09.853671",
+    "wind_speed": 99.41,
+    "radiation_level": 3.26,
+    "temperature": -118.5,
+    "image_id": "img_5381.jpg"
   },
   {
-    "timestamp": "2025-07-20T13:47:09.389534",
-    "wind_speed": 29.87,
-    "radiation_level": 4.37,
-    "temperature": -103.3,
-    "image_id": "img_4152.jpg"
+    "timestamp": "2025-07-20T18:21:09.853671",
+    "wind_speed": 56.8,
+    "radiation_level": 1.16,
+    "temperature": -122.6,
+    "image_id": "img_1124.jpg"
   },
   {
-    "timestamp": "2025-07-20T14:47:09.389534",
-    "wind_speed": 41.25,
-    "radiation_level": 4.28,
-    "temperature": -114.9,
-    "image_id": "img_6000.jpg"
+    "timestamp": "2025-07-20T19:21:09.853671",
+    "wind_speed": 23.33,
+    "radiation_level": 4.46,
+    "temperature": -26.4,
+    "image_id": "img_2381.jpg"
   },
   {
-    "timestamp": "2025-07-20T15:47:09.389534",
-    "wind_speed": 48.26,
-    "radiation_level": 1.84,
-    "temperature": -105.3,
-    "image_id": "img_7458.jpg"
+    "timestamp": "2025-07-20T20:21:09.853671",
+    "wind_speed": 63.49,
+    "radiation_level": 3.44,
+    "temperature": -20.6,
+    "image_id": "img_6767.jpg"
   },
   {
-    "timestamp": "2025-07-20T16:47:09.389534",
-    "wind_speed": 90.14,
-    "radiation_level": 3.04,
-    "temperature": -70.6,
-    "image_id": "img_8949.jpg"
+    "timestamp": "2025-07-20T21:21:09.853671",
+    "wind_speed": 78.41,
+    "radiation_level": 1.4,
+    "temperature": -64.3,
+    "image_id": "img_6271.jpg"
   },
   {
-    "timestamp": "2025-07-20T17:47:09.389534",
-    "wind_speed": 57.54,
-    "radiation_level": 2.94,
-    "temperature": -137.4,
-    "image_id": "img_4517.jpg"
+    "timestamp": "2025-07-20T22:21:09.853671",
+    "wind_speed": 12.0,
+    "radiation_level": 2.04,
+    "temperature": -116.9,
+    "image_id": "img_2755.jpg"
   },
   {
-    "timestamp": "2025-07-20T18:47:09.389534",
-    "wind_speed": 61.95,
-    "radiation_level": 1.96,
-    "temperature": -49.2,
-    "image_id": "img_6525.jpg"
+    "timestamp": "2025-07-20T23:21:09.853671",
+    "wind_speed": 63.03,
+    "radiation_level": 3.85,
+    "temperature": -73.1,
+    "image_id": "img_5326.jpg"
   },
   {
-    "timestamp": "2025-07-20T19:47:09.389534",
-    "wind_speed": 58.05,
-    "radiation_level": 4.59,
-    "temperature": -84.0,
-    "image_id": "img_2455.jpg"
+    "timestamp": "2025-07-21T00:21:09.853671",
+    "wind_speed": 57.35,
+    "radiation_level": 4.82,
+    "temperature": -94.8,
+    "image_id": "img_3550.jpg"
   },
   {
-    "timestamp": "2025-07-20T20:47:09.389534",
-    "wind_speed": 17.72,
-    "radiation_level": 1.41,
-    "temperature": -34.5,
-    "image_id": "img_9675.jpg"
+    "timestamp": "2025-07-21T01:21:09.853671",
+    "wind_speed": 20.89,
+    "radiation_level": 3.7,
+    "temperature": -131.6,
+    "image_id": "img_5383.jpg"
   },
   {
-    "timestamp": "2025-07-20T21:47:09.389534",
-    "wind_speed": 97.49,
-    "radiation_level": 3.62,
-    "temperature": -137.4,
-    "image_id": "img_2444.jpg"
+    "timestamp": "2025-07-21T02:21:09.853671",
+    "wind_speed": 53.16,
+    "radiation_level": 4.49,
+    "temperature": -42.6,
+    "image_id": "img_9173.jpg"
   },
   {
-    "timestamp": "2025-07-20T22:47:09.389534",
-    "wind_speed": 30.75,
-    "radiation_level": 2.24,
-    "temperature": -27.1,
-    "image_id": "img_2700.jpg"
+    "timestamp": "2025-07-21T03:21:09.853671",
+    "wind_speed": 71.06,
+    "radiation_level": 2.65,
+    "temperature": -82.9,
+    "image_id": "img_1859.jpg"
   },
   {
-    "timestamp": "2025-07-20T23:47:09.389534",
-    "wind_speed": 46.94,
-    "radiation_level": 2.68,
-    "temperature": -131.5,
-    "image_id": "img_1730.jpg"
+    "timestamp": "2025-07-21T04:21:09.853671",
+    "wind_speed": 85.25,
+    "radiation_level": 1.67,
+    "temperature": -141.1,
+    "image_id": "img_6473.jpg"
   },
   {
-    "timestamp": "2025-07-21T00:47:09.389534",
-    "wind_speed": 45.51,
-    "radiation_level": 4.23,
-    "temperature": -115.7,
-    "image_id": "img_3453.jpg"
+    "timestamp": "2025-07-21T05:21:09.853671",
+    "wind_speed": 23.93,
+    "radiation_level": 1.28,
+    "temperature": -67.6,
+    "image_id": "img_6615.jpg"
   },
   {
-    "timestamp": "2025-07-21T01:47:09.389534",
-    "wind_speed": 84.99,
-    "radiation_level": 1.53,
-    "temperature": -139.2,
-    "image_id": "img_7941.jpg"
+    "timestamp": "2025-07-21T06:21:09.853671",
+    "wind_speed": 40.7,
+    "radiation_level": 3.12,
+    "temperature": -45.8,
+    "image_id": "img_4383.jpg"
   },
   {
-    "timestamp": "2025-07-21T02:47:09.389534",
-    "wind_speed": 98.08,
-    "radiation_level": 0.96,
-    "temperature": -140.2,
-    "image_id": "img_1490.jpg"
+    "timestamp": "2025-07-21T07:21:09.853671",
+    "wind_speed": 58.22,
+    "radiation_level": 0.82,
+    "temperature": -24.8,
+    "image_id": "img_8707.jpg"
   },
   {
-    "timestamp": "2025-07-21T03:47:09.389534",
-    "wind_speed": 33.67,
-    "radiation_level": 1.1,
-    "temperature": -113.0,
-    "image_id": "img_8580.jpg"
+    "timestamp": "2025-07-21T08:21:09.853671",
+    "wind_speed": 32.86,
+    "radiation_level": 2.78,
+    "temperature": -97.1,
+    "image_id": "img_5110.jpg"
   },
   {
-    "timestamp": "2025-07-21T04:47:09.389534",
-    "wind_speed": 27.96,
-    "radiation_level": 4.27,
-    "temperature": -92.5,
-    "image_id": "img_3436.jpg"
+    "timestamp": "2025-07-21T09:21:09.853671",
+    "wind_speed": 14.54,
+    "radiation_level": 1.2,
+    "temperature": -126.0,
+    "image_id": "img_6379.jpg"
   },
   {
-    "timestamp": "2025-07-21T05:47:09.389534",
-    "wind_speed": 56.33,
-    "radiation_level": 4.36,
-    "temperature": -95.6,
-    "image_id": "img_4321.jpg"
+    "timestamp": "2025-07-21T10:21:09.853671",
+    "wind_speed": 63.71,
+    "radiation_level": 1.03,
+    "temperature": -58.0,
+    "image_id": "img_8651.jpg"
   }
 ]
